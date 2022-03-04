@@ -65,132 +65,74 @@
       "address": "1430 n lake",
       "email": "wwardrop@gmail.com",
       "id": 11
+    },
+    {
+      "name": "John Smith",
+      "address": "505 Church Street",
+      "email": "jsmith@gmail.com",
+      "id": 12
+    },
+    {
+      "name": "Calvin Smith",
+      "address": "505 Church Street",
+      "email": "csmith@gmail.com",
+      "id": 13
     }
   ],
   "employees": [
     {
       "id": 1,
-      "name": "Tom Schamberger",
-      "specialty": "iPhone"
+      "name": "No Employee Assigned",
+      "specialty": ""
     },
     {
       "id": 2,
       "name": "Rose Schmitt",
       "specialty": "Printers"
+    },
+    {
+      "name": "asdfads",
+      "specialty": "asdfadsf",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Tom Schamberger",
+      "specialty": "iPhone"
     }
   ],
   "serviceTickets": [
     {
-      "id": 1,
-      "customerId": 4,
-      "employeeId": 1,
-      "description": "iPhone case cracked. Please replace.",
-      "emergency": false,
-      "dateCompleted": "2021-05-26"
-    },
-    {
-      "id": 2,
-      "customerId": 3,
+      "id": 16,
+      "customerId": 11,
       "employeeId": 2,
-      "description": "Cannot connect to any wifi.",
+      "description": "asdfasdf",
       "emergency": true,
       "dateCompleted": " "
     },
     {
-      "description": "asfasd",
+      "id": 20,
+      "customerId": 13,
+      "employeeId": 4,
+      "description": "Need a new computer",
+      "emergency": true,
+      "dateCompleted": " "
+    },
+    {
+      "id": 21,
+      "customerId": 11,
+      "employeeId": 3,
+      "description": "Broken Laptop",
+      "emergency": false,
+      "dateCompleted": " "
+    },
+    {
+      "description": "New Computer",
       "emergency": true,
       "customerId": 11,
       "employeeId": 1,
       "dateCompleted": " ",
-      "id": 5
-    },
-    {
-      "description": "asasass",
-      "emergency": true,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 6
-    },
-    {
-      "description": "Hard Drive Full",
-      "emergency": false,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 7
-    },
-    {
-      "description": "asdfasdf",
-      "emergency": true,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 8
-    },
-    {
-      "description": "asdfadsf",
-      "emergency": false,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 9
-    },
-    {
-      "description": "asdfs",
-      "emergency": false,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 10
-    },
-    {
-      "description": "asdf",
-      "emergency": false,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 11
-    },
-    {
-      "description": "asdf",
-      "emergency": false,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 12
-    },
-    {
-      "description": "asdfasfds",
-      "emergency": false,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 13
-    },
-    {
-      "description": "aaaaa",
-      "emergency": false,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 14
-    },
-    {
-      "description": "asdfasdfs",
-      "emergency": false,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 15
-    },
-    {
-      "description": "asdfasdf",
-      "emergency": true,
-      "customerId": 11,
-      "employeeId": 1,
-      "dateCompleted": " ",
-      "id": 16
+      "id": 22
     }
   ]
 }
